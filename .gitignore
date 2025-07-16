@@ -39,3 +39,10 @@
 
 # debug information files
 *.dwo
+
+# various VS 2022 files and folders
+v17
+ARM64
+*.user
+*.filters
+*.vsidx
