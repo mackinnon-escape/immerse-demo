@@ -7,25 +7,26 @@
 
 std::string GetNoun()
 {
-    return "The panda";
+    return "Buffalo buffalo ";
 }
 
 std::string GetVerb()
 {
-    return " eats";
+    return "Buffalo buffalo buffalo";
 }
 
 std::string GetObjectOne()
 {
-    return " shoots";
+    return " buffalo";
 }
 
 std::string GetObjectTwo()
 {
-    return " and leaves.";
+    return " Buffalo buffalo.";
 }
 
 int main()
 {
     std::cout << GetNoun() << GetVerb() << ',' << GetObjectOne() << ',' << GetObjectTwo();
+    std::cout << "\n\n";
 }
